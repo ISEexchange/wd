@@ -1,0 +1,7 @@
+This program acts as a watchdog timer to start other programs.
+The other program must finish within a configurable timeout or
+else the other program is killed.
+
+You need EiffelStudio to build this.
+I use the GPL version available from http://www.eiffelstudio.com
+on x86 and x86_64.
