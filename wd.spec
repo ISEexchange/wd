@@ -40,3 +40,6 @@ make finalize
 %doc wd-test.sh
 
 %changelog
+* Wed Oct 20 2010 Paul Morgan <jumanjiman@gmail.com> 0.9-1
+- new package built with tito
+
