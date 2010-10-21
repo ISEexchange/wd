@@ -2,11 +2,11 @@ name: wd
 summary: Watchdog timer for other programs
 
 version: 0.9
-release: 1%{?dist}
+release: 2%{?dist}
 
 license: GPLv3
 group: Applications/System
-url: http://github.com/jumanjiman/watchdog
+url: http://github.com/jumanjiman/wd
 buildroot: %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 source0: %{name}-%{version}.tar.gz
 
