@@ -52,6 +52,7 @@ Mac OS X
 
 . Install Xcode from Apple
 . Install the GPL version of EiffelStudio using Mac Ports
+using the instructions from http://dev.eiffel.com/EiffelOnMac[]
 +
 ----
 [pmorgan@mba02 ~]$ sudo port install eiffelstudio67
