@@ -1020,7 +1020,14 @@ export PATH=$PATH:$ISE_EIFFEL/studio/spec/$ISE_PLATFORM/bin:$GOBO/../spec/$ISE_P
 
 .. Source `~/.bashrc`
 
-. Run `estudio` and open the `wd` project
+. Build `wd` from the command-line using the provided `Makefile`
++
+* `make clean`
+* `make melt`
+* `make freeze`
+* `make finalize`
+
+. Alternatively, run `estudio` and open the `wd` project
 .. The project configuration is in the `src` directory
 .. Finalize the project to build an optimized binary
 . Win!
