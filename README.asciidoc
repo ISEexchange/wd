@@ -38,6 +38,11 @@ export ISE_PLATFORM=linux-x86-64
 export PATH=$PATH:$ISE_EIFFEL/studio/spec/$ISE_PLATFORM/bin
 #STOP_EIFFELSTUDIO
 ----
++
+NOTE: The above `.bashrc` is for the current user. If you would
+prefer to have a system-wide initialization file for the latest
+version of EiffelStudio currently installed, 
+see https://github.com/jumanjiman/workstation/blob/master/bash-profile-scripts/src/eiffel-studio.sh[]
 
 .. Source `~/.bashrc`
 
