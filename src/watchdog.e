@@ -8,7 +8,7 @@ indexing
 		
 		See `show_usage' below for more details.
 		]"
-	author: "Paul Morgan <pmorgan@redhat.com>"
+	author: "Paul Morgan <jumanjiman@gmail.com>"
 	date: "$Date$"
 	revision: "$Revision$"
 

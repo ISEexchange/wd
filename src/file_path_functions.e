@@ -1,6 +1,6 @@
 indexing
 	description: "Objects that need this functionality should inherit."
-	author: "Paul Morgan <pmorgan@redhat.com>"
+	author: "Paul Morgan <jumanjiman@gmail.com>"
 
 class
 	FILE_PATH_FUNCTIONS
