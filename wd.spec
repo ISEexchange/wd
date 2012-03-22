@@ -2,7 +2,7 @@ name: wd
 summary: Watchdog timer for other programs
 
 version: 0.9
-release: 2%{?dist}
+release: 3%{?dist}
 
 license: GPLv3
 group: Applications/System
