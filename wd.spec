@@ -41,6 +41,17 @@ make finalize
 %doc wd-test.sh
 
 %changelog
+* Thu Mar 22 2012 Paul Morgan <jumanjiman@gmail.com> 0.9-3
+- bump release
+- update spec for new readme filename
+- convert readme from asciidoc to markdown
+- update email address
+- add URL to README for system-wide init script
+- add URL for estudio-on-Mac installation
+- add comment to spec file WRT installing estudio
+- update Mac instructions to reference Makefile
+- Update README with info for building on Mac OSX
+
 * Wed Oct 20 2010 Paul Morgan <jumanjiman@gmail.com> 0.9-2
 - fix URL in spec file (jumanjiman@gmail.com)
 
