@@ -11,7 +11,7 @@ buildroot: %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 source0: %{name}-%{version}.tar.gz
 
 #BuildRequires: EiffelStudio from https://www2.eiffel.com/download
-# see README.asciidoc for information on installing EiffelStudio
+# see README.md for information on installing EiffelStudio
 
 %description
 Acts as a watchdog timer to start other programs.
@@ -37,7 +37,7 @@ make finalize
 %defattr(-,root,root,-)
 %{_bindir}/wd
 %doc COPYING.GPLv3
-%doc README.asciidoc
+%doc README.md
 %doc wd-test.sh
 
 %changelog
