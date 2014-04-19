@@ -20,23 +20,14 @@ EiffelStudio locally on Linux or Mac OSX.
 The easiest way to use EiffelStudio on Linux is via Docker containers.
 See http://www.docker.io/gettingstarted/ for tips.
 
-
 Run the [EiffelStudio docker container](https://index.docker.io/u/jumanjiman/eiffelstudio/).
 When you first run the container, docker will download it.
 Subsequent startups are almost instantaneous.
 
     sudo docker run -i -t -v /tmp:/tmp jumanjiman/eiffelstudio 
 
-Inspect the environment.
-
-    bash-4.2$ pwd
-    /tmp
-
-    bash-4.2$ env | grep -i home
-    HOME=/tmp
-
-    bash-4.2$ cat /etc/redhat-release 
-    Fedora release 19 (Schrödinger’s Cat)
+For a more complete dev environment that still includes EiffelStudio,
+try https://index.docker.io/u/jumanjiman/wormhole/
 
 Clone this repo and build with tito...
 
