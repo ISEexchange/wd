@@ -4,6 +4,9 @@
 # wd is a watchdog program that wraps any other program
 # that can be reached via an absolute filesystem path.
 
+# Prefer test version of wd if available (`make freeze`).
+PATH=$(pwd)/bin/:$PATH
+
 
 # set a time-limit for wrapped commands
 echo
